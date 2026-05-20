@@ -1,8 +1,8 @@
 #pragma once
-#include "Server.h"
+#include <attaServer/network/Acceptor.h>
 class App {
     asio::io_context io_;
-    Server server_;
+    Acceptor acceptor_;
 public:
     explicit App();
     void run();

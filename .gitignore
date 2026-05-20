@@ -1,0 +1,104 @@
+# =========================
+# IDE / Editor
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# Build directories (CMake)
+# =========================
+cmake-build-*/
+build/
+out/
+dist/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# =========================
+# Binaries / objects
+# =========================
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+
+# =========================
+# Debug / profiling
+# =========================
+*.dSYM/
+*.stackdump
+*.core
+core.*
+
+# =========================
+# Logs / runtime data
+# =========================
+logs/
+*.log
+*.log.*
+*.pid
+*.seed
+
+# =========================
+# Config / secrets
+# =========================
+# реальные конфиги не храним
+config/*.json
+config/*.yaml
+config/*.yml
+config/*.toml
+config/*.ini
+
+# но шаблоны — храним
+!config/*.example.json
+!config/*.example.yaml
+!config/*.example.toml
+
+# env
+.env
+.env.*
+
+# =========================
+# Cache / temp
+# =========================
+.cache/
+tmp/
+temp/
+*.tmp
+
+# =========================
+# Coverage
+# =========================
+coverage/
+*.gcno
+*.gcda
+*.gcov
+
+# =========================
+# Package managers (если появятся)
+# =========================
+conanbuildinfo.*
+conan.lock
+conaninfo.txt
+
+vcpkg_installed/
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
